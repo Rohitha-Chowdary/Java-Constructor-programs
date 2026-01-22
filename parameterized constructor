@@ -1,0 +1,18 @@
+------------------------------------------------------------------(parameterized constructor)
+public class Employee {
+    int id;
+    string name;
+    Employee(int a,string s){
+        int a;
+        string s;
+    }
+    public static void main(String[] args) {
+        Employee e = new Employee(101,"smith");
+        System.out.println(e.id);
+        System.out.println(e.name);
+        
+        Employee e2 = new Employee(102,"John");
+        System.out.println(e2.id);
+        System.out.println(e2.name);
+    }
+}    
