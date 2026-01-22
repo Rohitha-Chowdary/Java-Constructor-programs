@@ -1,0 +1,29 @@
+----------------------------------------------------(armstrong number)        
+package constructor
+
+public class Armstrong {
+    public static void main(String[] )
+    int num = 153;
+    int n1 = num, n2 = num;
+    int count = 0;
+    while (num! = 0) {
+        num = num % 10;
+        count ++;
+    }
+    int sum = 0;
+    while(n1 != 0) {
+        int rem = n1 % 10;
+        int power = 1;
+        for(int i = 1;i <= count, i++) {
+            power = power * rem;
+        }
+        sum = sum + power;
+        n1 /= 10;
+    }
+    if (sum == n2) {
+        System.out.println("armstrong number");
+    }else {
+        System.out.println("not an armstrong number");
+    }
+    
+}
