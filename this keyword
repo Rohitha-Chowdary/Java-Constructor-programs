@@ -1,0 +1,18 @@
+-------------------------------------------------------------------(this keyword)
+public class Car {
+    string brand;
+    string colour;
+    Car(String brand,string colour){
+        this.brand = brand;
+        this,colour = colour;
+    }
+    public static void main(String[] args) {
+        car c = new car("xuv","white");
+        System.out.println(c.brand);
+        System.out.println(c.colour);
+        
+        car c2 = new car("tata","black");
+        System.out.println(c2.brand);
+        System.out.println(c2.colour);
+    }
+} 
