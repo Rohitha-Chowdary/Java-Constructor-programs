@@ -1,0 +1,14 @@
+------------------------------------------------------(using parameters,length)
+package constructor
+
+public class Test {
+    test() {
+        System.out.println("hi");
+    }
+    test(int a, double b){
+        System.out.println(b);
+    }
+    test(int a){
+        System.out.println(a);
+    }
+}
