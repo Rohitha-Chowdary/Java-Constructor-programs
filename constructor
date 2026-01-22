@@ -1,0 +1,10 @@
+------------------------------------------------------------(constructor)    
+package Constructor;
+ public class Demo {
+     public Demo(){
+        system.out.println("hi");
+    }
+    public static void main(String[] args){
+        Demo d = new Demo();
+    }
+}
